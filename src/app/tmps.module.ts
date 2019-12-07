@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 
-import { AppComponent } from './app.component';
+import { TempusAppComponent } from './tmps.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 
@@ -16,11 +16,11 @@ import { ProductListComponent } from './product-list/product-list.component';
     ])
   ],
   declarations: [
-    AppComponent,
+    TempusAppComponent,
     TopBarComponent,
     ProductListComponent
   ],
-  bootstrap: [ AppComponent ]
+  bootstrap: [ TempusAppComponent ]
 })
 export class AppModule { }
 

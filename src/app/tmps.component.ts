@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  selector: 'tmps-root',
+  templateUrl: './tmps.component.html',
+  styleUrls: [ './tmps.component.css' ]
 })
-export class AppComponent  {}
+export class TempusAppComponent  {}
 
 
 /*
